@@ -1,0 +1,43 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+<!-- Stylesheet -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/css-plugin-collections.css" rel="stylesheet"/>
+<!-- CSS | menuzord megamenu skins -->
+<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
+<!-- CSS | Main style file -->
+<link href="css/style-main.css" rel="stylesheet" type="text/css">
+<!-- CSS | Preloader Styles -->
+<link href="css/preloader.css" rel="stylesheet" type="text/css">
+<!-- CSS | Custom Margin Padding Collection -->
+<link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+<!-- CSS | Responsive media queries -->
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+<!-- Revolution Slider 5.x CSS settings -->
+<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
+
+<!-- CSS | Theme Color -->
+<link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
+
+*/
+
+/* Your custom css codes start here: */
+@import './style-main.css';
+@import './preloader.css';
+@import './custom-bootstrap-margin-padding.css';
+@import './responsive.css';
+@import '../js/revolution-slider/css/settings.css';
+@import '../js/revolution-slider/css/layers.css';
+@import '../js/revolution-slider/css/navigation.css';
+@import './colors/theme-skin-orange.css'
